@@ -1,0 +1,30 @@
+Algoritmo sin_titulo
+	//leer 2 numeros es imprimir cual es el mayor de ello
+	//version 1.0
+	//desarrollado por: sergio villada
+	//ultima actualizacion 27/02/2023
+	//area de definicion de variable
+	Definir v_numUno Como Entero
+	Definir v_numDos Como Entero
+	
+	//inicializar variables
+	v_numUno<-0;
+	v_numDos<-0;
+	
+	//entradas
+	Escribir "digite el numero 1"
+	Leer v_numUno
+	Escribir "digite en numeri 2"
+	Leer v_numDos
+	
+	//Proceso 
+	
+	Si (v_numUno>v_numDos) Entonces
+		Escribir "el mayor es:", v_numUno 
+	SiNo
+		Escribir "el mayor es:", v_numDos
+	Fin Si
+	si v_numUno=v_numDos Entonces
+		Escribir "no hay mayor, los numeros son iguales"
+	FinSi
+FinAlgoritmo
